@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int a, b, res = 0;
+    cout<<"ingrese el primer número :";cin>>a;
+    cout<<"ingrese el segundo número:";cin>>b;
+        if (b == 0){
+        cout<<"error no se puede dividir por 0 :"<<endl;
+    }    res = (a/b)+1;
+    cout<<"el resultado es :"<<res;
+    
+       
+}
